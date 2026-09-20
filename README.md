@@ -10,7 +10,7 @@
 
 | Skill | 用途 | 语言 | 状态 |
 |---|---|---|---|
-| [`shao-nian-nu-style`](shao-nian-nu-style/) | 把审计行业的干货稿重写成「少年怒」公众号那种江湖气 + 使命感 + 短句金句的爆款文风 | 中文 | ✅ v0.2.0 |
+| [`shao-nian-nu-style`](shao-nian-nu-style/) | 把审计行业的干货稿重写成「少年怒」公众号那种江湖气 + 使命感 + 短句金句的爆款文风，支持轻度/中度/重度三档强度 | 中文 | ✅ v0.3.0 |
 
 ## 怎么用
 
@@ -41,6 +41,7 @@ ChatGPT / Kimi / DeepSeek / Qwen / 豆包 都能用。
 ```
 <skill-name>/
 ├── SKILL.md          ← Agent 契约：何时触发、输入输出、验收自查
+├── INTENSITY.md      ← 复刻强度档位（风格类 skill）
 ├── STYLE_GUIDE.md    ← 规则正本（风格类 skill）
 ├── README.md         ← 人读的说明
 ├── LICENSE

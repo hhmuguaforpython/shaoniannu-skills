@@ -9,6 +9,7 @@
 
 **输入**：任意审计/AI/事务所话题的资料稿、功能介绍稿、干巴巴的产品文档
 **输出**：可以直接发公众号的少年怒风格长文
+**强度**：轻度（借节奏）/ 中度（沉版）/ 重度（冲版）三档可选，见 [`INTENSITY.md`](INTENSITY.md)
 
 ## 这个 skill 是怎么来的
 
@@ -46,6 +47,7 @@ cp -r 少年怒-writing-style ~/.claude/skills/shao-nian-nu-style
 少年怒-writing-style/
 ├── README.md              ← 本文件
 ├── SKILL.md               ← Claude Skill 契约（供 Agent 装载）
+├── INTENSITY.md           ← 轻度/中度/重度三档复刻强度（选档位用）
 ├── STYLE_GUIDE.md         ← 蒸馏出来的文风指南（核心）
 ├── LICENSE                ← MIT
 ├── examples/              ← 5 篇原始范文 + 逐篇拆解笔记
@@ -57,9 +59,9 @@ cp -r 少年怒-writing-style ~/.claude/skills/shao-nian-nu-style
 │   └── DECONSTRUCTION.md
 ├── prompts/
 │   └── rewrite_prompt.md  ← 通用 LLM 的 Prompt 模板
-└── rewritten/             ← 用本 skill 重写的示例产物
-    ├── 税审报告复核_少年怒版.md
-    └── 费用跨期分析_少年怒版.md
+└── rewritten/             ← 示例产物（同一原稿的两档对照）
+    ├── AI审计工作台_少年怒版.md        ← 中度（沉版）
+    └── AI审计工作台_少年怒版_冲版.md   ← 重度（冲版）
 ```
 
 ## 适用场景
